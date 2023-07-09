@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="GasVent_Base">
+        <defName>GasVent_MustardGas</defName>
+        <label>gas vent (mustard gas)</label>
+        <description>A vent that can be loaded with mustard gas shells to produce mustard gas when powered.</description>
+        <descriptionHyperlinks>
+            <HediffDef>NachoToast_MustardGas</HediffDef>
+        </descriptionHyperlinks>
+
+        <graphicData>
+            <texPath>Things/Building/Security/GasVent_MustardGas</texPath>
+        </graphicData>
+
+        <comps>
+            <li Class="CompProperties_Refuelable">
+                <fuelCapacity>50</fuelCapacity>
+                <fuelMultiplier>10</fuelMultiplier>
+                <fuelLabel>Mustard gas shells</fuelLabel>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+                <autoRefuelPercent>0.8</autoRefuelPercent>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <showFuelGizmo>true</showFuelGizmo>
+
+                <fuelFilter>
+                    <thingDefs>
+                        <li>NachoToast_Shell_MustardGas</li>
+                    </thingDefs>
+                </fuelFilter>
+            </li>
+        </comps>
+
+        <modExtensions>
+            <li Class="GasVents.IdentifyingGas">
+                <gasDef>MustardGas</gasDef>
+            </li>
+        </modExtensions>
+
+    </ThingDef>
+
+</Defs>

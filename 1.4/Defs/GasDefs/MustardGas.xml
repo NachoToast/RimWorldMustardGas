@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <Def Class="SCGF.GasDef">
+        <defName>MustardGas</defName>
+        <label>mustard gas</label>
+        <color>(255, 255, 0)</color>
+        <addsHediffs>
+            <li>
+                <hediff>NachoToast_MustardGas</hediff>
+                <severityGasDensityFactor>0.1</severityGasDensityFactor>
+            </li>
+        </addsHediffs>
+        <isToxic>true</isToxic>
+        <immunities>
+            <apparel>
+                <li>Apparel_GasMask</li>
+            </apparel>
+        </immunities>
+    </Def>
+
+</Defs>
