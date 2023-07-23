@@ -4,7 +4,7 @@
     <HediffDef>
         <defName>NachoToast_MustardGas</defName>
         <label>mustard gas</label>
-        <description>Aftereffects of exposure to mustard gas. This horrible gas is extremely toxic, and causes a variety of effects such as chemical burns and carcinogens. Even minimal exposure can cause permanent damage.\n\nAlthough it can be nullified by a gas mask, only the toxic aspect of the gas is stopped by antitoxic lungs.</description>
+        <description>Aftereffects of exposure to mustard gas. This horrible gas is extremely toxic, and causes a variety of effects such as chemical burns and carcinogens. Even minimal exposure can cause permanent damage.\n\nSince mustard gas targets more than just the lungs, face-covering apparel like gas masks are ineffective against it, only being nullified by full-body protective apparel. The toxic aspect of the gas is stopped by antitoxic lungs and reduced by gas masks however.</description>
         <descriptionHyperlinks>
             <ThingDef>Apparel_GasMask</ThingDef>
         </descriptionHyperlinks>

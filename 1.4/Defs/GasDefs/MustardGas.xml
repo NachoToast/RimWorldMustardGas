@@ -13,9 +13,10 @@
         </addsHediffs>
         <isToxic>true</isToxic>
         <immunities>
-            <apparel>
-                <li>Apparel_GasMask</li>
-            </apparel>
+            <apparelPresets>
+                <li>FullBodyCoveringThick</li>
+                <li>HeadCoveringThick</li>
+            </apparelPresets>
         </immunities>
     </Def>
 
