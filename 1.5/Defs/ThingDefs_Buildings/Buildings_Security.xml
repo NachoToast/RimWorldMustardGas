@@ -22,7 +22,7 @@
         <comps>
             <li Class="CompProperties_Explosive">
                 <explosiveRadius>8.6</explosiveRadius>
-                <explosiveDamageType>Smoke</explosiveDamageType>
+                <explosiveDamageType>NachoToast_MustardGasSmoke</explosiveDamageType>
                 <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
                 <wickTicks>15</wickTicks>
                 <startWickOnDamageTaken>
@@ -33,11 +33,6 @@
             </li>
         </comps>
         <specialDisplayRadius>8.6</specialDisplayRadius>
-        <modExtensions>
-            <li Class="SCGF.CustomGasExtension">
-                <gasDef>MustardGas</gasDef>
-            </li>
-        </modExtensions>
         <researchPrerequisites>
             <li>GasOperation</li>
         </researchPrerequisites>
