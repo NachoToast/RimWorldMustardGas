@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <SCGF.GasDef ParentName="GasBase">
+        <defName>MustardGas</defName>
+        <label>mustard gas</label>
+        <color>(255, 255, 0)</color>
+
+        <immunityWhen Inherit="False">
+            <li Class="SCGF.Filters.ApparelTiers">
+                <tierDefs>
+                    <li>FullBodyCoveringThick</li>
+                    <li>MouthCoveringThick</li>
+                </tierDefs>
+            </li>
+        </immunityWhen>
+
+        <actions>
+            <li Class="SCGF.Actions.ApplyHediff">
+                <hediffDef>NachoToast_MustardGas</hediffDef>
+                <severityPerTick>0.1</severityPerTick>
+            </li>
+            <li Class="SCGF.Actions.DoToxicDamage" />
+        </actions>
+    </SCGF.GasDef>
+
+</Defs>
