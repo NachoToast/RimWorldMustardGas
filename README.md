@@ -13,9 +13,3 @@ See also:
 - [Gas vents](https://github.com/NachoToast/RimWorldGasVents)
 - [Knockout gas](https://github.com/NachoToast/RimWorldKnockoutGas)
 - [Tear gas](https://github.com/NachoToast/RimWorldTearGas)
-
-![image](Source/Media/mustard_a.png)
-
-![image](Source/Media/mustard_b.png)
-
-![image](Source/Media/mustard_c.png)
