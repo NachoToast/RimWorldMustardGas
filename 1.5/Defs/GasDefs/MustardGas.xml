@@ -8,11 +8,11 @@
         <color>(255, 255, 0)</color>
 
         <immunityWhen Inherit="False">
-            <li Class="SCGF.Filters.ApparelTiers">
-                <tierDefs>
-                    <li>FullBodyCoveringThick</li>
-                    <li>MouthCoveringThick</li>
-                </tierDefs>
+            <li Class="SCGF.Filters.ProtectiveApparel">
+                <types>
+                    <li>Body</li>
+                    <li>Head</li>
+                </types>
             </li>
         </immunityWhen>
 
